@@ -41,7 +41,7 @@ def toast(img, price, link):
     notifier.show(notifications.ToastNotification(xDoc))
 
 ebook_url = "https://ebookpoint.pl/"
-audio_url = "https://audiobooki.ebookpoint.pl/"
+audio_url = "https://ebookpoint.pl/kategorie/audiobooki"
 
 ebookPage = requests.get(ebook_url)
 audioPage = requests.get(audio_url)
